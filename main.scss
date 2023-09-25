@@ -1,0 +1,328 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+                      // Navbar
+
+nav{
+  width: 80%;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+
+  ul{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+
+    li{
+      list-style: none;
+    }
+    a{
+      text-decoration: none;
+      width: 71px;
+      height: 43px;
+      font-family: 'Heebo';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 29px;
+      color: #000000;
+    }
+  }
+} //nav
+
+                      // Main
+
+main{
+  width: 60%;
+  height: 552px;
+  margin:0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .right{
+    width: 251px;
+    height: 268px;
+    background: url(/img/heroimg.png);
+  } //right
+
+  .left{
+    width: 497px;
+    height: 323px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .name{
+      width: 506px;
+      height: 105px;
+      font-family: 'Heebo';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 44px;
+      line-height: 60px;
+      color: #21243D;      
+    } //name
+
+    .nameinfo{
+      width: 497px;
+      height: 66px;
+      font-family: 'Heebo';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #21243D;      
+    } //nameinfo
+
+    .download{
+      width: 208px;
+      height: 47px;
+      color: white;
+      font-family: 'Heebo';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 29px;
+      background: #FF6464;
+      border-radius: 2px;
+      border: none;
+    } //download button
+  } //left
+}//main
+
+                      //Section-1
+
+.sec1{
+  width: 100%;
+  height: 415px;
+  background: #EDF7FA;  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  .sec1leftheader{
+    width: 374px;
+    height: 85px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+    color: #21243D;
+  } //sec1leftheader
+
+  .subheader{
+    width: 374px;
+    height: 34px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #21243D;
+  }//subheader
+
+  .subheaderinfo{
+    width: 368px;
+    height: 117px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+  }
+
+  .secheaders{
+    width: 900px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h1{
+      width: 129px;
+      height: 60px;
+      font-family: 'Heebo';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 60px;
+      color: #21243D;  
+    }
+
+    p{
+      width: 208px;
+      height: 20px;
+      font-family: 'Heebo';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: right;
+      color: #00A8CC;
+    }
+  } //secheaders
+
+  .leftright{
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .sec1left{
+    width: 418px;
+    height: 295px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+  } //secleft
+
+  .sec1right{
+    width: 418px;
+    height: 295px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+  } //secright
+} //sec1
+
+                      // Sec-2
+
+.sec2{
+  width: 100%;
+  height: 868px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  .sec2header{
+    width: 152px;
+    height: 60px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    color: #21243D;    
+  }
+
+  .works{
+    width: 900px;
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    .workinfo{
+      width: 594px;
+      height: 200px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .workinfoheader{
+        width: 305px;
+        height: 44px;
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 44px;
+        color: #21243D;
+      } //workinfoheader
+
+      .date{
+        width: 300px;
+        height: 50px;
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 29px;
+        color: #8695A4;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        span{
+          width: 100px;
+          height: 40px;
+          font-family: 'Heebo';
+          font-style: normal;
+          font-weight: 900;
+          font-size: 18px;
+          line-height: 60px;
+          color: #FFFFFF;
+          background-color: #142850;
+          border-radius: 32px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        } //span
+      }//date
+
+      .desc{
+        width: 594px;
+        height: 93px;
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #21243D;
+      }
+    } //workinfo
+  }// works
+} //sec2
+
+                      // Footer
+
+footer{
+  width: 100%;
+  height: 182px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+  .socialicons{
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  } //socialicons
+
+  .copyrights{
+    height: 21px;
+    left: 40.28%;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #21243D;
+  }
+} //foter
